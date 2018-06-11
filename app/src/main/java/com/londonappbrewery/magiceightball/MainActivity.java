@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final ImageView ballDisplay = findViewById(R.id.image_eightBall);
-        final int[] ballArray = {
+        final int[] ballArray = new int[]{
             R.drawable.ball1,
             R.drawable.ball2,
             R.drawable.ball3,
